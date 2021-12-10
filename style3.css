@@ -1,0 +1,55 @@
+﻿*{
+	direction: rtl;
+	
+}
+.top{
+	width 97%;
+	background:#FFDAB9;
+	margin-top: 10px;
+	padding:20px;
+	text-align:center;
+}
+.menu{
+	whidth:97%;
+
+	padding-right: 30px;
+	background:#FFA07A;
+}
+
+.menu li{
+ display: inline-block;
+ list-style: none;
+
+}
+
+.menu li a{
+	display:inline-block;
+	color:#fff;
+	padding:20px 30px;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:19px;
+
+}
+
+.honor {
+	background:#FFDAB9;
+	padding:20px;
+}
+.honor p{
+	margin-top: 10px;
+	text-align:center;
+	font-size:23px;
+	line-height:70px;
+	color:#black;
+}
+
+
+footer {
+    width: 100%;
+    color: #fff;
+	font-size:18px;
+    height: auto;
+    text-align: center;
+	background:#FFA07A;
+}

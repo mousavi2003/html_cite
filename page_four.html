@@ -1,0 +1,74 @@
+﻿
+<html>
+		<title>   
+           تماس با من 
+       </title> 
+<head>
+ <link rel="stylesheet" type="text/CSS" href="Style4.CSS" />
+
+</head>
+<body>
+<div class="top">
+	       <h1> تماس با من </h1>
+		</div>
+		
+	<div class="menu">
+	<nav>
+	  <ul>
+		<li> <a href="page_one.html"> معرفی من </a> </li>
+		<li> <a href="page_two.html"> مهارت ها و توانمندی های من </a> </li>
+		<li> <a href="page_three.html"> افتخارات و دستاورد های من </a> </li>
+		<li> <a href="page_four.html">  تماس با من</a> </li>
+  </ul>
+</nav>
+	</div>
+
+
+		<form>
+			<div class="botom">
+			<div class="formeman">
+				<label>نام شما: <br> </label>
+				<input type="text" placeholder="نام خود را وارد کنید.">
+			
+				<label><br> نام خانوادگی شما:<br> </label>
+				<input type="text" placeholder="نام خانوادگی خود را وارد کنید.">
+			
+				<label><br>ایمیل:<br> </label>
+				<input type="email" placeholder="ایمیل خود را وارد کنید.">	
+			
+				<label><br>متن پیام:<br> </label>
+				<textarea> </textarea>
+			</div>
+			</div>
+		  </form>
+		<script type="text/javascript">
+			function confirmed(){
+			var check = confirm("آیا ارسال پیام را تایید میکنید؟");
+			if (check == 1){
+			alert("پیام ارسال شد.");
+			}
+			else{
+			alert("ارسال پیام لغو شد.");
+				}
+			}
+		</script>
+		<div class="button">
+		<input type="button" value="ارسال پیام" onclick="confirmed()" />
+		</div>
+		<footer>
+				<div class="footer">
+		
+					<p>ایمیل : <a href="mailto:se.fa.mousavi82@gmail.com"> se.fa.mousavi82@gmail.com</a> </p>
+					<p><a href="https://github.com/mousavi2003" target="_blank">
+					Github</a> </p>
+					<p> <a href="https://stackoverflow.com/users/17497885/fatemeh-mousavi" target="_blank">
+					StackOverflow</a> </p>
+  
+				</div>
+		</footer>
+</body>
+</html>
+
+
+
+
